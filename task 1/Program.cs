@@ -7,8 +7,8 @@
 
 int n,m;
 Console.WriteLine("Введите M: ");
-int.TryParse(Console.ReadLine(),out m);
+m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите N: ");
-int.TryParse(Console.ReadLine(), out n);
+n = Convert.ToInt32(Console.ReadLine());
 
 WriteBetween(m,n);
